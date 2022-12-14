@@ -1,0 +1,33 @@
+## importando bibliotecas
+import os
+
+## Print cmd
+
+print("Hello, World!")
+
+# Printando o tipo da variável
+
+print(type("tipo da varriavel"))
+
+# Tipos de variaveis
+
+print("str") # string ou texto
+print(51)    # integer ou inteiro
+print(51.1)  # float ou flutuante
+print(True)  # bool
+
+# Tipos de listas de dados
+
+lista = ["a", "b", "c"]                     # list
+tupla = ("a", "b", "c")                     # tuple
+rng = range(3)                              # range
+dicionario = {"a":"a", "b":"b", "c":"c"}    # dictionary
+st = {"a", "b", "c"}                        # set
+
+# Conversão de variaveis
+
+a = "123"
+b = int(a)
+
+print(type(a))      # string 
+print(type(b))      # integer
